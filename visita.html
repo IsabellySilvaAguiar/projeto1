@@ -1,0 +1,78 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria de fotos</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="visita.css"></link>
+ 
+</head>
+<body  style="background-color: #cbe7cb">
+    <div class="header"> <h1> Visita técnica</h1></div>
+<div>
+    <p>
+        No dia 09 de agosto de 2023, foi realizada uma visita técnica ao Instituto Federal de Rondônia (IFRO), Campus Colorado do Oeste. A visita foi organizada pelo professor Aremilson
+        juntamente com o coordenador do curso de informática Douglas Legramante e contou com a participação de estudantes e professores dos curso de informática</p>
+
+<p>
+    O objetivo da visita foi promover a integração entre teoria e prática, além de proporcionar aos estudantes uma visão mais ampla do funcionamento do campus. Durante a visita, 
+    os participantes foram apresentados ao projeto camêra escura, que conta com projetos que abragem várias aréas como projeto de judô, projeto de ensilagem e criação do 
+    aplicativo Ifro Mobile .
+</p>
+
+<p>
+   Depois de apresentados os projetos, os alunos foram conhecer as outras areas do campus.
+    Nas áreas de produção agrícola, os participantes conheceram as diferentes culturas que são cultivadas no campus, como legumes e verduras , milho, arroz, feijão, os alimentos 
+    cultivados no campus são consumidos pelos alunos durante as refeções.
+    Eles também aprenderam sobre as técnicas de manejo utilizadas para essas culturas.
+    
+    Nas áreas de florestas, os participantes conheceram as diferentes espécies de árvores que são cultivadas no campus, como eucalipto, pinus e mogno. Eles também aprenderam sobre 
+    outros alimentos cultivados como café, laranja, entre outros.
+</p>
+
+<p>
+    No campus Colorado, também são criados animais que são usados para a alimentação e sustento do campus. Como bovinos, bubalinos, suínos, galinhas e coelhos. Alguns desses animais 
+    são vendidos para custear gastos e ampliar novas áreas do campus, os restos desses são o alimentos dos alunos do campus.
+    
+</p>
+<p>
+    A visita técnica foi uma experiência enriquecedora para os participantes, que puderam conhecer de perto a estrutura e o funcionamento do IFRO Campus Colorado do Oeste. 
+    A visita também contribuiu para a formação dos estudantes, proporcionando-lhes uma visão mais ampla da realidade do mundo do trabalho.
+        
+</p>
+
+
+
+</div><br>
+
+   
+
+  <div class="gallery">
+    <img class="photo" src="img1.jpg" alt="Imagem 1">
+    <img class="photo" src="img2.jpg" alt="Imagem 2">
+    <img class="photo" src="img3.jpg" alt="Imagem 3">
+    <img class="photo" src="img4.jpg" alt="Imagem 4">
+    <img class="photo" src="img6.jpg" alt="Imagem 5">
+   
+</div><br>
+
+<div class="gallery">
+    <img class="photo" src="img11.jpg" alt="Imagem 6">
+    <img class="photo" src="img7.jpg" alt="Imagem 7">
+    <img class="photo" src="img8.jpg" alt="Imagem 8">
+    <img class="photo" src="img9.jpg" alt="Imagem 9">
+    <img class="photo" src="img10.jpg" alt="Imagem 10">
+</div>
+
+<script>
+    const photos = document.querySelectorAll('.photo');
+
+    photos.forEach((photo) => {
+        photo.addEventListener('click', () => {
+            photos.forEach((p) => p.classList.remove('photo-large'));
+            photo.classList.add('photo-large');
+        });
+    });
+</script>  
+    
+</body>
+</html>
