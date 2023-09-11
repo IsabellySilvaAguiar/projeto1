@@ -1,5 +1,5 @@
 let currentImageIndex = 0;
-const images = ['Fotos/img1.jpg', 'Fotos/img2.jpg', 'Fotos/img3.jpg', 'img3.jpg','img4.jpg','img5.jpg','img6.jpg','img7.jpg','img8.jpg','img9.jpg','img10.jpg' ];
+const images = ['Fotos/img1.jpg', 'Fotos/img2.jpg', 'Fotos/img3.jpg', 'Fotos/img4.jpg','Fotos/img5.jpg','Fotos/img6.jpg','Fotos/img7.jpg','Fotos/img8.jpg','Fotos/img9.jpg','Fotos/img1.jpg'10 ];
 
 
 function openModal(imageSrc) 
