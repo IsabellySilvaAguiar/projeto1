@@ -4,6 +4,7 @@
   <title>Galeria de fotos</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="visita.css"></link>
+  <script src="visita.js"></script>
  
 </head>
 <body  style="background-color: #cbe7cb">
@@ -55,7 +56,11 @@
    
 </div><br>
 
-  
+  <div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <span class="next" onclick="nextImage()">&#10095;</span>
+    <img class="modal-content" id="modalImage">
+</div>
 
 <div class="gallery">
     <img class="photo" src="Fotos/img11.jpg" alt="Imagem 6">
