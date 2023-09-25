@@ -1,14 +1,14 @@
 let musicas = [
-    {titulo:'Satellite', artista:'Harry Styles', src:'musicas/satellite.mp3', img:"ft.jpg"},
-    {titulo:'New Romantics', artista:'taylor swift', src:'musicas/newromantics.mp3', img:"ft.jpg"},
-    {titulo:'Lonely heart', artista:'5 seconds of summer', src:'musicas/lonelyheart.mp3', img:"ft.jpg"},
-    {titulo:'When i was your man', artista:'Bruno Mars', src:'musicas/bruno.mp3', img:"ft.jpg"},
-    {titulo:'Bring Me To Life', artista:'Evanescence ', src:'musicas/bringmetolife.mp3', img:"ft.jpg"},
-    {titulo:'Mess it up', artista:'Gracie Abrams', src:'musicas/messitup.mp3', img:"ft.jpg"},
-    {titulo:'Daylight', artista:'Harry Styles', src:'musicas/daylight.mp3', img:"ft.jpg"},
-    {titulo:'Seven', artista:'Taylor Swift', src:'musicas/seven.mp3', img:"ft.jpg"},
-    {titulo:'Summertime Sadness ', artista:'Lana Del Rey', src:'musicas/summer.mp3', img:"ft.jpg"},
-    {titulo:'Cardigan', artista:'Taylor Swift', src:'musicas/cardigan.mp3', img:"ft.jpg"}
+    {titulo:'Satellite', artista:'Harry Styles', src:'musicas/satellite.mp3', img:"imagens/ft.jpg"},
+    {titulo:'New Romantics', artista:'taylor swift', src:'musicas/newromantics.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Lonely heart', artista:'5 seconds of summer', src:'musicas/lonelyheart.mp3', img:"imagens/ft.jpg"},
+    {titulo:'When i was your man', artista:'Bruno Mars', src:'musicas/bruno.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Bring Me To Life', artista:'Evanescence ', src:'musicas/bringmetolife.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Mess it up', artista:'Gracie Abrams', src:'musicas/messitup.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Daylight', artista:'Harry Styles', src:'musicas/daylight.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Seven', artista:'Taylor Swift', src:'musicas/seven.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Summertime Sadness ', artista:'Lana Del Rey', src:'musicas/summer.mp3', img:"imagens/ft.jpg"},
+    {titulo:'Cardigan', artista:'Taylor Swift', src:'musicas/cardigan.mp3', img:"imagens/ft.jpg"}
 
    
 ];
